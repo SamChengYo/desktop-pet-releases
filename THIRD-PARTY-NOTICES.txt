@@ -1,0 +1,23 @@
+Desktop Pet Agent — third-party notices
+
+Original bundled characters, procedural motions, and skeleton templates are created for this product by SamChengYo. No third-party character or animation packs are bundled.
+
+Three.js 0.180.0 — MIT — https://github.com/mrdoob/three.js/blob/r180/LICENSE
+Microsoft WebView2 SDK — Microsoft license — https://www.nuget.org/packages/Microsoft.Web.WebView2
+WebView2 Runtime — distributed/bootstrapped under Microsoft's runtime terms, not embedded as application source.
+.NET 10 — MIT and associated third-party notices — included in self-contained publish output.
+Microsoft.Data.Sqlite — MIT; SQLite — public domain. SQLitePCLRaw — Apache-2.0.
+Velopack 1.2.161 — MIT — https://github.com/velopack/velopack/blob/develop/LICENSE
+
+Optional generation runtime:
+TripoSR commit 107cefdc244c39106fa830359024f6a2f1c78871 — MIT, Copyright (c) 2024 Tripo AI & Stability AI. License included in runtime.
+TripoSR weights — MIT model card: https://huggingface.co/stabilityai/TripoSR. Weights downloaded only after user starts generation; not bundled.
+PyTorch, torchvision — BSD-style; individual license files retained in dependency metadata.
+scikit-image — BSD-3-Clause; replaces marching cubes dependency on Windows CPU.
+rembg — MIT; onnxruntime — MIT. u2netp weight download occurs only for user-selected background removal.
+NumPy, SciPy, Pillow, transformers, huggingface-hub, trimesh, imageio, omegaconf, einops and psutil — license metadata retained in optional runtime.
+CPython — PSF license; standalone runtime license files retained.
+
+Optional LiteLLM runtime: LiteLLM 1.104.0 and proxy extras — MIT and individual dependency licenses retained in runtime metadata.
+
+Stable Fast 3D and Mesh2Motion are evaluated dependencies, not shipped. Mesh2Motion art/animation CC0 status must be checked for each imported asset. Stable Fast 3D has separate Stability AI community terms; it is not substituted for the MIT TripoSR backend.
